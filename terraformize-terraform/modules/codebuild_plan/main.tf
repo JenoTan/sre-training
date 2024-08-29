@@ -48,7 +48,7 @@ phases:
     commands:
       - echo "\033[0;34m ------------ Initializing Terraform... ------------ \033[0;34m"
       - ls -la
-      - cd livsports-qat-terraform-infra && ls -la
+      - cd project-terraform-infra && ls -la
       - terraform init
       - echo "\033[0;34m ------------ Validating Terraform configuration... ------------ \033[0;34m"
       - terraform validate
