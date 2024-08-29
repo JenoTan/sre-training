@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Variables
-profile="<SSO Profile>"
-region="<region>"
+profile="jenotanpg"
+region="ap-southeast-1"
 provider_type="GitHub"
-connection_name="github-connecxion"
+connection_name="gitct"
 output_file="codestar-arn.json"
 
 # Create the connection

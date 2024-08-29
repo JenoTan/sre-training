@@ -1,8 +1,8 @@
 terraform {
 
   backend "s3" {
-    profile = "<SSO Profile>"
-    bucket  = "<bucket name>"
+    profile = "jenotanpg"
+    bucket  = "cdb-bucket-1"
     region  = "ap-southeast-1"
     key     = "state/terraform.tfstate"  ###path in the s3 bucket
   }

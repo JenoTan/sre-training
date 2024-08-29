@@ -9,7 +9,7 @@ variable "policy_arns" {
     "arn:aws:iam::aws:policy/AWSCodeBuildDeveloperAccess",
     "arn:aws:iam::aws:policy/AmazonEC2FullAccess",
     "arn:aws:iam::aws:policy/AWSKeyManagementServicePowerUser",
-    "arn:aws:iam::905418263057:policy/EKS-FullAccess",
+    "arn:aws:iam::905418182346:policy/EKS-FullAccess",
     "arn:aws:iam::aws:policy/AmazonElasticFileSystemFullAccess",
     "arn:aws:iam::aws:policy/IAMFullAccess"
   ]
