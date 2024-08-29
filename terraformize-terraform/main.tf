@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     profile = "<SSO Profile>"
     bucket  = "<bucket name>"
-    region  = "<region>"
+    region  = "ap-southeast-1"
     key     = "state/terraform.tfstate"  ###path in the s3 bucket
   }
 }
