@@ -6,7 +6,7 @@ variable "vpc_cidr" {
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "ap-east-1"
+  default     = "ap-southeast-1"
 }
 variable "kubernetes_version" {
   description = "Kubernetes version"
